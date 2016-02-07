@@ -5,6 +5,10 @@ var jpm_xpi = require("jpm/lib/xpi");
 var jpm_run = require("jpm/lib/run");
 var jpm_test = require("jpm/lib/test");
 
+if (!Promise) {
+  var Promise = require("es6-promise").Promise;
+}
+
 const XPI_PATH = "./tmp/";
 
 module.exports = function(grunt) {

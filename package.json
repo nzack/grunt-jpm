@@ -26,6 +26,7 @@
     "url": "https://github.com/rpl/grunt-jpm/issues"
   },
   "dependencies": {
+    "es6-promise": "^3.0.2",
     "jpm": "~1.0.5",
     "mkdirp": "^0.5.1"
   },
